@@ -6,7 +6,6 @@ public class DivisoresEnteros {
     public static void main(String[] args) {
 
         int valor;
-
         Scanner lectura = new Scanner(System.in);
         System.out.print("Introduzca un valor entero positivo: ");
         valor = lectura.nextInt();
@@ -23,11 +22,12 @@ public class DivisoresEnteros {
         System.out.println("Los divisores son: ");
         for (int i = 2; i < valor; i++) {
             if (valor % i == 0) {
-                System.out.println(i);
+                System.out.print( i + " ");
             }
 
         }
     }
 }
+
 
 
